@@ -1,0 +1,40 @@
+.comment {
+    padding-bottom: 71px;
+
+    &__item {
+        display: flex;
+        margin-top: 100px;
+
+        &:nth-child(2) {
+            margin-top: 70px;
+        }
+    }
+
+    &__text {
+        margin-left: 62px;
+    }
+
+    &__img {
+        width: 169px;
+        height: 169px;
+    }
+
+    &__subtitle {
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    &__count {
+        font-size: 14px;
+        font-weight: 300;
+        color: #646464;
+    }
+
+    &__descr {
+        font-size: 16px;
+        line-height: 1.2;
+        font-weight: 300;
+        margin-top: 19px;
+    }
+
+}
